@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import  Main  from "./components/MainComponent";
 import styles from './MyStyles.module.css'
 import 'weather-icons/css/weather-icons.css'
@@ -15,3 +14,4 @@ function App() {
 
 
 export default App;
+

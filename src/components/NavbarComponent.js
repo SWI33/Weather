@@ -1,10 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, withRouter } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import { Navbar, Nav, Form, FormControl } from "react-bootstrap";
-import { Button, Container } from "reactstrap";
+import { Button } from "reactstrap";
 import "../MyStyles.module.css";
 
-const NavComponent = (props) => {
+const NavComponent = () => {
   return (
     <div>
       <div className="row">
@@ -20,40 +20,17 @@ const NavComponent = (props) => {
                   <div>
                     <Button
                       style={{ backgroundColor: "transparent", color: "white" }}
-                      href="#"
-                    >
+                      href="#">
                       Home
-                    </Button>
-                    <Button
-                      style={{ backgroundColor: "transparent", color: "white" }}
-                      href="#"
-                    >
-                      Radar
-                    </Button>
-                    <Button
-                      style={{ backgroundColor: "transparent", color: "white" }}
-                      href="#"
-                    >
-                      Review
                     </Button>
                   </div>
                 </Nav>
-                <Form inline>
-                  <FormControl
-                    style={{ backgroundColor: "transparent", color: "white" }}
-                    type="text"
-                    placeholder="Search"
-                    placeholder="Search"
-                    className="mr-sm-3"
-                  />
-                  <Button color="outline-light">Search</Button>
-                </Form>
               </Navbar.Collapse>
             </Navbar>
             <div className="jumbtron text-center" style={{ color: "white" }}>
               <h1>Accurate-Weather</h1>
             </div>
-             </Router>
+          </Router>
         </div>
       </div>
     </div>

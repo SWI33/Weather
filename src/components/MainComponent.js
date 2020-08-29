@@ -1,20 +1,13 @@
 import React from "react";
 import NavComponent from "./NavbarComponent";
-import { Navbar } from "react-bootstrap";
-import Cards from './CardComponents'
-import Current from './CurrentWeather'
-import Srch from './SearchWeatherForm'
+import Current from "./CurrentWeather";
 
 class Main extends React.Component {
   render() {
     return (
       <div>
         <NavComponent />
-        <Srch />
-        <Current  />
-        <Cards />
-
-
+        <Current />
       </div>
     );
   }

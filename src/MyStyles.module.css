@@ -1,16 +1,12 @@
 .backcolor {
     background-image: url(backroundimage.jpg);
-    height: 1400px;
+    height: 1500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.cardbackground {
-    background-color: transparent;
-}
-
-.form {
-    box-shadow: none !important;
+::placeholder {
+    color: white!important;
 }
 
